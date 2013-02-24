@@ -39,3 +39,8 @@ nosetests.xml
 
 # Maven
 interpret-server/target
+
+# Eclipse
+.project
+.classpath
+.settings
