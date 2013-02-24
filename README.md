@@ -6,6 +6,7 @@ A simple proof-of-concept web service for interpreting natural language queries 
 Host Dependencies
 -----------------
  
+ * VirtualBox
  * vagrant
  * vagrant-vbguest
 
@@ -17,17 +18,11 @@ VM Dependencies
  * nltk
  * numpy
 
- * MaltParser
- * MaltParser mco file
-
- * foreman?
-
- * default-jdk
+ * Java EE JDK
  * maven
 
+ * foreman?
 
 
 Things I had to do
 ------------------
-nltk.config\_java?
-pip install JPype*.zip
