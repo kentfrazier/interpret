@@ -17,11 +17,14 @@ VM Dependencies
  * nltk
  * numpy
 
- * default-jre
  * MaltParser
  * MaltParser mco file
 
  * foreman?
+
+ * default-jdk
+ * maven
+
 
 
 Things I had to do
