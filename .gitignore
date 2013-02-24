@@ -36,3 +36,6 @@ nosetests.xml
 
 # Vagrant
 .vagrant
+
+# Maven
+interpret-server/target
