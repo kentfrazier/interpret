@@ -14,8 +14,7 @@ Steps to Get it Running
    including several quite large language models totaling a few hundred MB.
    It may take a while.
  * Open a web browser and go to [the parser page][parser].
- * To see minimal time extraction in effect, go to
-   [the intepreter page][interpreter].
+ * To see minimal time extraction in effect, go to [the intepreter page][interpreter].
 
 [java]: http://www.oracle.com/technetwork/java/javaee/downloads/java-ee-sdk-6u3-jdk-7u1-downloads-523391.html
 [maven]: http://maven.apache.org/download.cgi
