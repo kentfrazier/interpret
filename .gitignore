@@ -38,7 +38,7 @@ nosetests.xml
 .vagrant
 
 # Maven
-interpret-server/target
+parser/target
 
 # Eclipse
 .project

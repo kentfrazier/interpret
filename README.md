@@ -8,7 +8,7 @@ Steps to Get it Running
  * Install [Java EE JDK][java], and make sure it is on your path.
  * Install [Apache Maven][maven], and make sure it is on your path.
  * git clone this repository.
- * cd into the `interpret-server` directory.
+ * cd into the `parser` directory.
  * run the `runtestserver.sh` script, which should bootstrap the project.
    Please note that this will have to download a lot of dependencies,
    including several quite large language models totaling a few hundred MB.
