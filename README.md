@@ -15,6 +15,9 @@ Steps to Get it Running
    It may take a while.
  * Open a web browser and go to [the parser page][parser].
  * To see minimal time extraction in effect, go to [the intepreter page][interpreter].
+ * If you already have stuff running on port 8080, the script can take an
+   argument specifying a different port, but the links listed above will need
+   to be modified, of course.
 
 [java]: http://www.oracle.com/technetwork/java/javaee/downloads/java-ee-sdk-6u3-jdk-7u1-downloads-523391.html
 [maven]: http://maven.apache.org/download.cgi
