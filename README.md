@@ -19,4 +19,4 @@ Steps to Get it Running
 [java]: http://www.oracle.com/technetwork/java/javaee/downloads/java-ee-sdk-6u3-jdk-7u1-downloads-523391.html
 [maven]: http://maven.apache.org/download.cgi
 [parser]: http://localhost:8080/parser/?phrase=This%20is%20a%20sentence%20I%20want%20to%20parse.
-[interprer]: http://localhost:8080/interpret/?phrase=I%20want%20to%20meet%20a%20mobile%20developer%20in%20austin%20this%20month
+[interpreter]: http://localhost:8080/interpret/?phrase=I%20want%20to%20meet%20a%20mobile%20developer%20in%20austin%20this%20month
