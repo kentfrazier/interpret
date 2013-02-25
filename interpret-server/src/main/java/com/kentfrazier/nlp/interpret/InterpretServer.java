@@ -12,6 +12,9 @@ public class InterpretServer {
 	 * @throws Exception 
 	 */
 	public static void main(String[] args) throws Exception {
+		PhraseParser.preload();
+		System.out.println("Parser loaded!");
+		
 		int port = DEFAULT_PORT;
 		if (args.length > 0) {
 			try {

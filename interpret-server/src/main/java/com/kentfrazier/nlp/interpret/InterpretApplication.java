@@ -10,6 +10,7 @@ public class InterpretApplication extends Application {
 	public Restlet createInboundRoot() {
 		Router router = new Router(getContext());
 		router.attach("/interpret/", InterpretationResource.class);
+		router.attach("/parser/", ParserResource.class);
 		return router;
 	}
 

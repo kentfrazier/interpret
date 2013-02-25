@@ -1,31 +1,51 @@
 package com.kentfrazier.nlp.interpret;
 
+import edu.stanford.nlp.pipeline.Annotation;
+
 public class Interpretation {
 	
+	private final Annotation annotation;
+	private final String subject;
 	private final String location;
 	private final String time;
-	private final String subject;
 	
-	public Interpretation(String location, String time, String subject) {
+	public Interpretation(String subject, String location, String time) {
+		this.annotation = null;
+		this.subject = subject;
 		this.location = location;
 		this.time = time;
-		this.subject = subject;
 	}
 	
-	public Interpretation(String sentence) {
-		this(null, null, null);
+	public Interpretation(String phrase) {
+		this.annotation = PhraseParser.parsePhrase(phrase);
+		this.subject = extractSubject();
+		this.location = extractLocation();
+		this.time = extractTime();
 	}
 
+	private String extractTime() {
+		return null;
+	}
+
+	private String extractLocation() {
+		return null;
+		
+	}
+
+	private String extractSubject() {
+		return null;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+	
 	public String getLocation() {
 		return location;
 	}
 
 	public String getTime() {
 		return time;
-	}
-
-	public String getSubject() {
-		return subject;
 	}
 
 }
